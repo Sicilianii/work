@@ -1,0 +1,54 @@
+{
+    "amount": 46600,
+    "countGoods": 2,
+    "contents": [
+      {
+        "item_id": 123,
+        "item_name": "t-shirt",
+        "item_price": 500,
+        "item_color": "red",
+        "item_size": 10,
+        "quantity": 1
+      },
+      {
+        "item_id": 124,
+        "item_name": "shirt",
+        "item_price": 600,
+        "item_color": "blue",
+        "item_size": 8,
+        "quantity": 1
+      },
+      {
+        "item_id": 125,
+        "item_name": "shirt",
+        "item_price": 600,
+        "item_color": "blue",
+        "item_size": 8,
+        "quantity": 1
+      },
+      {
+        "item_id": 126,
+        "item_name": "shirt",
+        "item_price": 600,
+        "item_color": "blue",
+        "item_size": 8,
+        "quantity": 1
+      },
+      {
+        "item_id": 127,
+        "item_name": "shirt",
+        "item_price": 600,
+        "item_color": "blue",
+        "item_size": 8,
+        "quantity": 1
+      },
+      {
+        "item_id": 128,
+        "item_name": "shirt",
+        "item_price": 600,
+        "item_color": "blue",
+        "item_size": 8,
+        "quantity": 1
+      }
+    ]
+  }

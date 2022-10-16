@@ -1,0 +1,86 @@
+@import "../base/variables";
+
+.btn {
+    display: block;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+.page-header svg {
+    width: $width;
+    height: $height;
+    fill: #fff;
+    display: block;
+}
+.page-header button:hover svg {
+    fill: #f16d7f;
+}
+.page-header button:active svg {
+    fill: #fff;
+}
+.page-header {
+    background: #222222;
+    list-style-type: none;
+    padding: 18px 0 20px 0;
+    box-sizing: border-box;
+}
+.page-header-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    list-style-type: none;
+}
+.page-header-list > li:nth-child(2) {
+    margin: 0 75.5% 0 0;
+}
+.page-header-logo {
+    display: block;
+    width: 44px;
+    height: 38px;
+    text-decoration: none;
+    margin: 0 41px 0 0;
+}
+.page-header-logo img {
+    width: $width;
+    height: $height;
+}
+.page-header-logo:hover img {
+    filter: brightness(40%);
+}
+.page-header-logo:active img {
+    filter: brightness(70%);
+}
+.page-header-search {
+    width: 26px;
+    height: 26px;
+    margin: 0 75,5% 0 0 ;
+}
+.menu-btn {
+    width: 32px;
+    height: 23px;
+    margin: 0 33px 0 0;
+}
+.account-btn {
+    width: 29px;
+    height: 29px;
+    margin: 0 33px 0 0;
+}
+.cart-btn {
+    height: 29px;
+    width: 32px;
+    position: relative;
+}
+.cart-btn span {
+    @include flex-center;
+    width: 19px;
+    height: 19px;
+    background-color: #f16d7f;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 12px;
+    line-height: 14px;
+    position: absolute;
+    top: -7px;
+    right: -9px;
+}

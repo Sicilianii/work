@@ -1,0 +1,122 @@
+@import "./base/button";
+@import "./base/variables";
+@import "./block/header";
+@import "./block/footer";
+
+
+.banner {
+    min-height: 764px;
+    background: #F1E4E6;
+}
+.catigories {
+    min-height: 470px;
+    width: $width;
+    margin: 65px 0 96px 0;
+    &-box {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.card {
+    max-width: 360px;
+    max-height: 260px;
+    background-size: cover;
+    margin: 0;
+    &-accsesories {
+        width: $width;
+        max-height: 180px;
+        margin-top: 30px;
+        background-size: cover;
+    }
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    &-header {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        color: #222222;
+    }
+    &-txt {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #9F9F9F;
+    }
+    &-btn {
+        border: 1px solid #FF6A6A;
+        width: 212px;
+        height: 48px;
+        background-color: white;
+        @include font2;
+        color: #F26376;
+    }
+    &-box {
+        margin-top: 48px;
+        margin-bottom: 18px ;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &-card {
+        width: 360px;
+        min-height: 581px;
+        background: #F8F8F8;
+        margin: 0 0 30px 0;
+        &-info {
+            padding: 25px 28px 20px 16px;
+        }
+        &-heading {
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 16px;
+            color: #000000;
+            text-transform: uppercase;
+        }
+        &-txt {
+            @include font1;
+            color: #5D5D5D;
+            margin: 12px 0 18px 0;
+        }
+        &-price {
+            @include font2;
+            color: #F16D7F;
+        }
+    }
+}
+
+.services {
+    background: #222224;
+    width: 100%;
+    min-height: 341px;
+    margin-top: 95px;
+    &-box {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        justify-content: space-between;
+        padding-top: 104px;
+        padding-bottom: 104px;
+    }
+    &-card {
+        max-width: 360px;
+        min-height: 134px;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        justify-content: space-between;
+        &-heading {
+            @include font3;
+            color: #FBFBFB;
+        }
+        &-txt {
+            @include font1;
+            text-align: center;
+            color: #FBFBFB;
+            width: 360px;
+            min-height: 34px;
+        }
+    }
+}

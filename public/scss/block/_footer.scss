@@ -1,0 +1,74 @@
+.promotion {
+    background-image: url(../image/promotionBACK.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: rgba(244, 244, 244, 0.7);
+    background-blend-mode: darken;
+    width: 100%;
+    min-height: 448px;
+    &-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 97px;
+    }
+    &-comments {
+        max-width: 360px;
+        min-height: 225px;
+        display: flex;
+        flex-direction: column;
+        &-txt {
+            @include font3;
+            text-align: center;
+            color: #222224;
+            margin-top: 30px;
+        }
+    }
+    &-subs {
+        display: flex;
+        flex-direction: column;
+        max-width: 557px;
+        min-height: 142px;
+        &-head {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 40px;
+            text-align: center;
+            color: #222224;
+            text-transform: uppercase;
+            &-two {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 30px;
+                text-align: center;
+                color: #222224;
+                text-transform: uppercase;
+            }
+        }
+        &-ipt {
+            background: #E1E1E1;        
+            border-radius: 50px;
+            margin-top: 32px;
+        }
+    }
+}
+
+.footer {
+    background: #222224;
+    width: $width;
+    min-height: 79px;
+    display: flex;
+    align-items: center;
+    &-box {
+        display: flex;
+        justify-content: space-between;
+        height: $height;
+        width: $width;
+        margin: 0;
+    }
+    &-header {
+        @include font2;
+        color: #FBFBFB;
+    }
+}
